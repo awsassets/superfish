@@ -16,7 +16,7 @@ class main:
     redirect = ""
 
 
-print("-= Special Fish =-")
+print("-= Super Fish =-")
 
 if len(argv) < 2:
     help("")
