@@ -31,4 +31,5 @@
 - 3 share the public ngrok link with the target, the link will look like: "https://9470-131-161-179-245.ngrok.io"
 - 4 then look in the CSV file, you will see the ip of the email and the password of the victim.
 
-# License
+# Terms and Warns
+> 1 This tool/author does not take responsibility for damages to third parties, this responsibility is entirely and completely from the user
