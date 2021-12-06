@@ -37,7 +37,7 @@ else:
             
         if search("--local-template=", a):
             template = a.replace("--local-template=", "")
-            wp.WriteHtml(wp.ChangeHtml(wp.OpenHtml()))
+            wp.WriteHtml(wp.ChangeHtml(wp.OpenHtml(template)))
         
         if search("--redirect=", a):
             main.redirect = a.replace("--redirect=", "")
