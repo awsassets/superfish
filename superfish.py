@@ -1,4 +1,4 @@
-#!/bin/bash
+# imports
 from sys import argv
 from re import search
 
@@ -8,6 +8,7 @@ from src.process import StripeInputs
 from src import webpage as wp
 from src.help import help
 
+# main class
 class main:
     host = "0.0.0.0"
     port = 8080
@@ -17,7 +18,6 @@ class main:
 
 
 print("-= Super Fish =-")
-
 if len(argv) < 2:
     help("")
     exit(0)
